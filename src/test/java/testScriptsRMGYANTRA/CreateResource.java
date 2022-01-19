@@ -26,9 +26,11 @@ public class CreateResource extends BaseAPIClass{
 		Response response = given()
 			.contentType(ContentType.JSON)
 			.body(pojo)
+			
 		.when()
 			.post(IpathConstant.ADD_PROJECT);
 		String responseActualProjectName = jsonUtil.getJsonDataValue(response, "projectName");
+		
 		response.then()
 			.assertThat()
 			.contentType(ContentType.JSON)

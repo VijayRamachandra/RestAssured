@@ -13,8 +13,8 @@ public class CreateProject {
 	public void createProject() {
 		
 		JSONObject jsonobj = new JSONObject();
-		jsonobj.put("createdBy", "NerajA");
-		jsonobj.put("projectName", "SDET1");
+		jsonobj.put("createdBy", "Bajja");
+		jsonobj.put("projectName", "SDET9");
 		jsonobj.put("status", "Created");
 		jsonobj.put("teamSize", 45);
 		
