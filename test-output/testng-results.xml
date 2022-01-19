@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-20T00:58:48 IST" name="Default suite" finished-at="2022-01-20T00:58:54 IST" duration-ms="5454">
+  <suite started-at="2022-01-20T01:54:56 IST" name="Default suite" finished-at="2022-01-20T01:55:02 IST" duration-ms="5542">
     <groups>
     </groups>
-    <test started-at="2022-01-20T00:58:48 IST" name="Default test" finished-at="2022-01-20T00:58:54 IST" duration-ms="5454">
-      <class name="employees.CreateEmployee">
-        <test-method signature="addEmployee()[pri:0, instance:employees.CreateEmployee@61386958]" started-at="2022-01-20T00:58:48 IST" name="addEmployee" finished-at="2022-01-20T00:58:54 IST" duration-ms="5373" status="PASS">
+    <test started-at="2022-01-20T01:54:56 IST" name="Default test" finished-at="2022-01-20T01:55:02 IST" duration-ms="5542">
+      <class name="employees.RequestChainingCreateAndDeleteUser">
+        <test-method signature="createAndDeleteUser()[pri:0, instance:employees.RequestChainingCreateAndDeleteUser@61386958]" started-at="2022-01-20T01:54:56 IST" name="createAndDeleteUser" finished-at="2022-01-20T01:55:02 IST" duration-ms="5462" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addEmployee -->
-      </class> <!-- employees.CreateEmployee -->
+        </test-method> <!-- createAndDeleteUser -->
+      </class> <!-- employees.RequestChainingCreateAndDeleteUser -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

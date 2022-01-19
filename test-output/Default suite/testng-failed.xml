@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RequestChaining.RequestChainingPostToPut">
+      <class name="testScriptsRMGYANTRA.Create_Project_And_Allocate_User">
         <methods>
-          <include name="postToPut"/>
+          <include name="createProjectAllocateUser"/>
         </methods>
-      </class> <!-- RequestChaining.RequestChainingPostToPut -->
+      </class> <!-- testScriptsRMGYANTRA.Create_Project_And_Allocate_User -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
